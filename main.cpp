@@ -1,9 +1,17 @@
-//
-//  Project 1 Starter Code - DNA Profiling
-// Jan Komorowski jkomor2@uic.edu CS251 fall 2022
-//  TODO:  Put your header info here.  Update line above.
-// Creative Component, transcript the DNA loaded to mRNA   
-//
+/*
+DNA Profiling
+Jan Komorowski - jankomorowski.01@gmail.com
+Project description:
+DNA profiler loads a database that contains strings with people's names and their dna sequences, loads a file with dna string and matches the dna with a person 
+from database (if there's any)
+How to use:
+1.load the database using: load_db (small.txt or large.txt)
+2.load the dna using: load_dna (1-20.txt)
+3.to process the dna use: process
+4. to find matches use: search
+5. to display the results of any command type: display
+6. to transcript the dna to mRNA type: transcript
+*/
 
 #include "ourvector.h"  
 #include <sstream>
